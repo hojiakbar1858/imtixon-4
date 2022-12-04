@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./styles/registration.css" />
+    <title>Registration From</title>
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="wrapper">
+          <div class="left">
+            <img src="./images/Logo sign-in.svg" alt="logo" class="logo" />
+            <div class="left_body">
+              <h1 class="sign_up_title">
+                Welcome to Eduvi Online Learning Platform
+              </h1>
+              <img src="./images/sign-in-image.png" alt="image" />
+              <div class="sliders">
+                <span class="slider"></span>
+                <span class="slider"></span>
+                <span class="slider"></span>
+              </div>
+            </div>
+          </div>
+          <div class="center"></div>
+          <div class="right">
+            <div class="right_box">
+              <button class="gl">
+                <img src="./images/gplus.svg" alt="icon" />
+                <p class="gl_text">Signup with google</p>
+              </button>
+
+              <div class="lines">
+                <p class="lines_text">
+                  <span class="line"></span> Or signup with your email
+                  <span class="line"></span>
+                </p>
+              </div>
+            </div>
+
+            <form id="reg">
+              <label for="username" >
+                Full name
+                <input
+                  type="text"
+                  id="username"
+                  class="input"
+                  placeholder="Esther Howard"
+                  required
+                />
+              </label>
+              <label for="email">
+                Email
+                <input
+                  type="email"
+                  id="email"
+                  class="input"
+                  placeholder="bill.sanders@example.com"
+                  required
+                />
+              </label>
+              <label for="password">
+                Password
+                <input
+                  type="text"
+                  id="password"
+                
+                  placeholder="Password"
+                  class="input"
+                  required 
+                />
+              </label>
+
+              <button class="reg_btn">Sign up</button>
+              <p class="link">
+                Alreay have account?
+                <a href="./login.html" class="login">Sign in</a>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./scripts/plugin.js"></script>
+  <script src="./scripts/registration.js"></script>
+</html>
